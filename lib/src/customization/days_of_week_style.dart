@@ -20,9 +20,11 @@ class DaysOfWeekStyle {
 
   /// Style for weekend days on the top of Calendar.
   final TextStyle weekendStyle;
+  final Color backgroundColor;
 
   const DaysOfWeekStyle({
     this.dowTextBuilder,
+    this.backgroundColor,
     this.weekdayStyle = const TextStyle(color: const Color(0xFF616161)), // Material grey[700]
     this.weekendStyle = const TextStyle(color: const Color(0xFFF44336)), // Material red[500]
   });
